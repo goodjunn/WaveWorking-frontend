@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tailwindcss/line-clamp", "virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:0.4.2"],\
             ["@tailwindcss/typography", "virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:0.5.8"],\
             ["@vitejs/plugin-vue", "virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:3.2.0"],\
+            ["@vueuse/core", "virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:8.9.4"],\
             ["autoprefixer", "virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:10.4.13"],\
             ["axios", "npm:1.2.1"],\
             ["postcss", "npm:8.4.19"],\
@@ -265,6 +266,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/web-bluetooth", [\
+        ["npm:0.0.14", {\
+          "packageLocation": "./.yarn/cache/@types-web-bluetooth-npm-0.0.14-916c70e6c5-1eb694ff2b.zip/node_modules/@types/web-bluetooth/",\
+          "packageDependencies": [\
+            ["@types/web-bluetooth", "npm:0.0.14"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@vitejs/plugin-vue", [\
         ["npm:3.2.0", {\
           "packageLocation": "./.yarn/cache/@vitejs-plugin-vue-npm-3.2.0-d467fde943-64774f770e.zip/node_modules/@vitejs/plugin-vue/",\
@@ -421,6 +431,72 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@vue-shared-npm-3.2.45-1855c9c551-ff3205056c.zip/node_modules/@vue/shared/",\
           "packageDependencies": [\
             ["@vue/shared", "npm:3.2.45"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vueuse/core", [\
+        ["npm:8.9.4", {\
+          "packageLocation": "./.yarn/cache/@vueuse-core-npm-8.9.4-f7542d327d-4f19874884.zip/node_modules/@vueuse/core/",\
+          "packageDependencies": [\
+            ["@vueuse/core", "npm:8.9.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:8.9.4", {\
+          "packageLocation": "./.yarn/__virtual__/@vueuse-core-virtual-c0d7e170f1/0/cache/@vueuse-core-npm-8.9.4-f7542d327d-4f19874884.zip/node_modules/@vueuse/core/",\
+          "packageDependencies": [\
+            ["@vueuse/core", "virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:8.9.4"],\
+            ["@types/vue", null],\
+            ["@types/vue__composition-api", null],\
+            ["@types/web-bluetooth", "npm:0.0.14"],\
+            ["@vue/composition-api", null],\
+            ["@vueuse/metadata", "npm:8.9.4"],\
+            ["@vueuse/shared", "virtual:c0d7e170f1fa38e477e2e8a8d2475a0504326a2de7706ccf87ba201c8e7d2a14524da860177a3060d5869b35498cc10ee6ff21b840a65ff014b84b6e82b6c683#npm:8.9.4"],\
+            ["vue", "npm:3.2.45"],\
+            ["vue-demi", "virtual:c0d7e170f1fa38e477e2e8a8d2475a0504326a2de7706ccf87ba201c8e7d2a14524da860177a3060d5869b35498cc10ee6ff21b840a65ff014b84b6e82b6c683#npm:0.13.11"]\
+          ],\
+          "packagePeers": [\
+            "@types/vue",\
+            "@types/vue__composition-api",\
+            "@vue/composition-api",\
+            "vue"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vueuse/metadata", [\
+        ["npm:8.9.4", {\
+          "packageLocation": "./.yarn/cache/@vueuse-metadata-npm-8.9.4-90cd05ae49-f289adc73d.zip/node_modules/@vueuse/metadata/",\
+          "packageDependencies": [\
+            ["@vueuse/metadata", "npm:8.9.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vueuse/shared", [\
+        ["npm:8.9.4", {\
+          "packageLocation": "./.yarn/cache/@vueuse-shared-npm-8.9.4-7a54ac7644-83a29ec879.zip/node_modules/@vueuse/shared/",\
+          "packageDependencies": [\
+            ["@vueuse/shared", "npm:8.9.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:c0d7e170f1fa38e477e2e8a8d2475a0504326a2de7706ccf87ba201c8e7d2a14524da860177a3060d5869b35498cc10ee6ff21b840a65ff014b84b6e82b6c683#npm:8.9.4", {\
+          "packageLocation": "./.yarn/__virtual__/@vueuse-shared-virtual-e6af848878/0/cache/@vueuse-shared-npm-8.9.4-7a54ac7644-83a29ec879.zip/node_modules/@vueuse/shared/",\
+          "packageDependencies": [\
+            ["@vueuse/shared", "virtual:c0d7e170f1fa38e477e2e8a8d2475a0504326a2de7706ccf87ba201c8e7d2a14524da860177a3060d5869b35498cc10ee6ff21b840a65ff014b84b6e82b6c683#npm:8.9.4"],\
+            ["@types/vue", null],\
+            ["@types/vue__composition-api", null],\
+            ["@vue/composition-api", null],\
+            ["vue", "npm:3.2.45"],\
+            ["vue-demi", "virtual:c0d7e170f1fa38e477e2e8a8d2475a0504326a2de7706ccf87ba201c8e7d2a14524da860177a3060d5869b35498cc10ee6ff21b840a65ff014b84b6e82b6c683#npm:0.13.11"]\
+          ],\
+          "packagePeers": [\
+            "@types/vue",\
+            "@types/vue__composition-api",\
+            "@vue/composition-api",\
+            "vue"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2620,6 +2696,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["vue-demi", [\
+        ["npm:0.13.11", {\
+          "packageLocation": "./.yarn/unplugged/vue-demi-virtual-f1cd15833e/node_modules/vue-demi/",\
+          "packageDependencies": [\
+            ["vue-demi", "npm:0.13.11"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:c0d7e170f1fa38e477e2e8a8d2475a0504326a2de7706ccf87ba201c8e7d2a14524da860177a3060d5869b35498cc10ee6ff21b840a65ff014b84b6e82b6c683#npm:0.13.11", {\
+          "packageLocation": "./.yarn/unplugged/vue-demi-virtual-f1cd15833e/node_modules/vue-demi/",\
+          "packageDependencies": [\
+            ["vue-demi", "virtual:c0d7e170f1fa38e477e2e8a8d2475a0504326a2de7706ccf87ba201c8e7d2a14524da860177a3060d5869b35498cc10ee6ff21b840a65ff014b84b6e82b6c683#npm:0.13.11"],\
+            ["@types/vue", null],\
+            ["@types/vue__composition-api", null],\
+            ["@vue/composition-api", null],\
+            ["vue", "npm:3.2.45"]\
+          ],\
+          "packagePeers": [\
+            "@types/vue",\
+            "@types/vue__composition-api",\
+            "@vue/composition-api",\
+            "vue"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["waveworking-frontend", [\
         ["workspace:.", {\
           "packageLocation": "./",\
@@ -2630,6 +2732,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tailwindcss/line-clamp", "virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:0.4.2"],\
             ["@tailwindcss/typography", "virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:0.5.8"],\
             ["@vitejs/plugin-vue", "virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:3.2.0"],\
+            ["@vueuse/core", "virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:8.9.4"],\
             ["autoprefixer", "virtual:846e2fcfc6921712d1091e1d9762a16ab1c81db046ec322c42dd531b3fb10d0e93fd1d4fed91aa09deb9acc1e900f13de9b2efeb2146eab449e5528cf4fe3a2d#npm:10.4.13"],\
             ["axios", "npm:1.2.1"],\
             ["postcss", "npm:8.4.19"],\
