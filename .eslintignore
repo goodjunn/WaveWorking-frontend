@@ -1,0 +1,6 @@
+/dist
+/node_modules
+/src/assets/js
+.DS_Store
+.eslintrc.js
+vue.config.js
