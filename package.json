@@ -10,17 +10,17 @@
     "lint": "eslint --fix --ext =js,jsx src/*.js"
   },
   "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/forms": "^0.5.3",
-    "@tailwindcss/line-clamp": "^0.4.2",
-    "@tailwindcss/typography": "^0.5.8",
     "@vueuse/core": "8.9.4",
     "axios": "^1.2.1",
     "vue": "^3.2.41"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^3.2.0",
     "@eslint/create-config": "^0.4.1",
+    "@tailwindcss/aspect-ratio": "latest",
+    "@tailwindcss/forms": "latest",
+    "@tailwindcss/line-clamp": "latest",
+    "@tailwindcss/typography": "latest",
+    "@vitejs/plugin-vue": "^3.2.0",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.30.0",
     "eslint-plugin-vue": "latest",

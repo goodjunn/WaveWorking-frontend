@@ -167,7 +167,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/aspect-ratio@npm:^0.4.2":
+"@tailwindcss/aspect-ratio@npm:latest":
   version: 0.4.2
   resolution: "@tailwindcss/aspect-ratio@npm:0.4.2"
   peerDependencies:
@@ -176,7 +176,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/forms@npm:^0.5.3":
+"@tailwindcss/forms@npm:latest":
   version: 0.5.3
   resolution: "@tailwindcss/forms@npm:0.5.3"
   dependencies:
@@ -187,7 +187,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/line-clamp@npm:^0.4.2":
+"@tailwindcss/line-clamp@npm:latest":
   version: 0.4.2
   resolution: "@tailwindcss/line-clamp@npm:0.4.2"
   peerDependencies:
@@ -196,7 +196,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/typography@npm:^0.5.8":
+"@tailwindcss/typography@npm:latest":
   version: 0.5.8
   resolution: "@tailwindcss/typography@npm:0.5.8"
   dependencies:
@@ -2938,10 +2938,10 @@ __metadata:
   resolution: "waveworking-frontend@workspace:."
   dependencies:
     "@eslint/create-config": ^0.4.1
-    "@tailwindcss/aspect-ratio": ^0.4.2
-    "@tailwindcss/forms": ^0.5.3
-    "@tailwindcss/line-clamp": ^0.4.2
-    "@tailwindcss/typography": ^0.5.8
+    "@tailwindcss/aspect-ratio": latest
+    "@tailwindcss/forms": latest
+    "@tailwindcss/line-clamp": latest
+    "@tailwindcss/typography": latest
     "@vitejs/plugin-vue": ^3.2.0
     "@vueuse/core": 8.9.4
     autoprefixer: ^10.4.13
