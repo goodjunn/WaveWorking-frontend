@@ -31,7 +31,6 @@
   },
   "engines": {
     "node": "16.18.1",
-    "yarn": "~3.3.0"
-  },
-  "packageManager": "yarn@3.3.0"
+    "yarn": "^1.21"
+  }
 }
