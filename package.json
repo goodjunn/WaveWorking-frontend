@@ -30,6 +30,8 @@
     "vite": "^3.2.3"
   },
   "engines": {
-    "node": "16.18.1"
-  }
+    "node": "16.18.1",
+    "yarn": "1.22.19"
+  },
+  "packageManager": "yarn@1.22.19"
 }
