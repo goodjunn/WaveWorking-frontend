@@ -1,11 +1,15 @@
 module.exports = {
 	'env': {
 		'browser': true,
-		'es2021': true
+		'es2021': true,
+		'node': true
 	},
 	'extends': [
 		'eslint:recommended',
-		'plugin:vue/vue3-essential'
+		'plugin:vue/vue3-essential',
+		'plugin:vue/base',
+		'plugin:vue/vue3-recommended',
+		'plugin:vue/vue3-strongly-recommended'
 	],
 	'overrides': [
 	],
@@ -20,6 +24,7 @@ module.exports = {
 		'**/*.html'
 	],
 	'rules': {
+		'vue/no-unused-vars': 'error',
 		'indent': [
 			'error',
 			'tab'
