@@ -14,7 +14,7 @@ const count = ref(0);
 </script>
 
 <template>
-  <h1>{{ msg }}{{ $t('messages.hello') }}</h1>
+  <h1>{{ msg }}{{ $t('hello') }}</h1>
 
   <div class="card">
     <button

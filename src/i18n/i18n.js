@@ -1,6 +1,6 @@
 import { createI18n } from 'vue-i18n';
-import tw from './zh-tw.js';
-import en from './en.js';
+import tw from './zh-tw.json';
+import en from './en.json';
 
 const i18n = new createI18n({
 	locale: 'zh-tw',
@@ -9,7 +9,7 @@ const i18n = new createI18n({
 	globalInjection: true, // 全域注入，讓你在 <template> 可以使用 $t
 	messages: {
 		'zh-tw': tw,
-		en: en
+		en
 	}
 });
 
