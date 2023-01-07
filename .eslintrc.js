@@ -26,6 +26,12 @@ module.exports = {
 	],
 	'rules': {
 		'vue/no-unused-vars': 'error',
+		'vue/multi-word-component-names': [
+			'error',
+			{
+				'ignores':['Home','Channel']
+			}
+		],
 		'indent': [
 			'error',
 			'tab'
