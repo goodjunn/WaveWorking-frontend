@@ -9,7 +9,8 @@ module.exports = {
 		'plugin:vue/vue3-essential',
 		'plugin:vue/base',
 		'plugin:vue/vue3-recommended',
-		'plugin:vue/vue3-strongly-recommended'
+		'plugin:vue/vue3-strongly-recommended',
+		'./.eslintrc-auto-import.json'
 	],
 	'overrides': [
 	],

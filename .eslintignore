@@ -6,3 +6,4 @@
 tailwind.config.js
 postcss.config.js
 vue.config.js
+.eslintrc-auto-import.json
