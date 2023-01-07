@@ -29,7 +29,10 @@ export default defineConfig({
 				'vue-router',
 				'vue-i18n',
 				'@vueuse/core',
-				'pinia'
+				'pinia',
+				{
+					'axios': ['default', 'axios']
+				}
 			],
 			resolvers: [],
 			dirs: [
