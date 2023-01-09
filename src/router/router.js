@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import HelloWorld from '@/components/HelloWorld.vue';
 
 const routes = [
@@ -9,8 +9,10 @@ const routes = [
 	}
 ];
 
+//createWebHistory
+//createWebHashHistory 可以避免頁面重整抓不到資料的問題
 const router = createRouter({
-	history: createWebHistory(),
+	history: createWebHashHistory(),
 	routes
 });
 

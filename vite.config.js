@@ -9,6 +9,7 @@ const { resolve } = require('path');
 
 // https://vitejs.dev/config/
 export default defineConfig({
+	base: '/WaveWorking-frontend/',
 	resolve: {
 		alias: {
 			'@': resolve(__dirname, 'src')
