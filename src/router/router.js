@@ -3,6 +3,10 @@ import Home from '@/page/Home.vue';
 
 const routes = [
 	{
+		path: '/:catchAll(.*)',
+		component: () => import('@/page/NotFound.vue')
+	},
+	{
 		path: '/',
 		name: 'Home',
 		component: Home
