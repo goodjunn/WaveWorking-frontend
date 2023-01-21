@@ -14,18 +14,45 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  @apply font-sans;
-  margin: 0 auto;
-}
-
-#app {
-  @apply relative h-screen;
-}
-
 @media (prefers-color-scheme: light) {
   /* :root {
     color: #213547;
     background-color: #ffffff;
   } */
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+    margin: 0 auto;
+  }
+
+  #app {
+    @apply relative h-screen;
+  }
+}
+
+@layer components {
+  .linearBg-main {
+    @apply bg-gradient-to-r from-secondary-700 to-accent-500;
+  }
+  .linearBg-sub {
+    @apply bg-gradient-to-r from-tertiary-500 to-secondary-700;
+  }
+
+  .btn {
+    @apply px-6 py-3 rounded-lg disabled:opacity-70 disabled:pointer-events-none active:shadow-[inset_0_3px_8px_rgba(21,21,23,0.4)] transition;
+  }
+
+  .btn-main {
+    @apply text-primary-50 linearBg-main hover:from-[#9038EB] hover:to-accent-500;
+  }
+
+  .btn-sub {
+    @apply text-primary-200 bg-primary-900 hover:bg-primary-700/60;
+  }
+
+  .cta-shadow {
+    @apply hover:shadow-[0_2px_10px_rgba(106,28,251,0.4)] active:shadow-[0_2px_16px_rgba(106,28,251,0.4)];
+  }
 }
