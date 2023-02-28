@@ -1,5 +1,11 @@
 {
 	"hello": "你好",
   "common": {
+    "slogan": "wave working!"
+  },
+  "menuNav": {
+    "serving": "專屬服務",
+    "joinWave": "加入Wave",
+    "registration": "成為 DJ"
   }
 }

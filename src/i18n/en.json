@@ -1,5 +1,11 @@
 {
 	"hello": "Hello",
   "common": {
+    "slogan": "wave working!"
+  },
+  "menuNav": {
+    "serving": "serving",
+    "joinWave": "join wave",
+    "registration": "DJ registration"
   }
 }
