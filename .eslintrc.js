@@ -32,6 +32,13 @@ module.exports = {
 				'ignores':['Home','Channel']
 			}
 		],
+		'vue/html-quotes': [
+			'error',
+			'double',
+			{
+				'avoidEscape': true
+			}
+		],
 		'indent': [
 			'error',
 			'tab'
