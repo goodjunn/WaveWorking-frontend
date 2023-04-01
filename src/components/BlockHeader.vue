@@ -15,7 +15,7 @@ const navlist = [
 
 <template>
   <header class="sticky top-0 linearBg-main">
-    <div class="container relative flex items-center justify-between px-6 py-4 mx-auto text-lg capitalize md:py-6">
+    <div class="container flex items-center justify-between px-6 py-4 mx-auto text-lg capitalize transition-all md:py-6">
       <div class="flex items-center space-x-4 flex-nowrap">
         <div class="text-3xl font-bold uppercase text-secondary-50">
           logo
@@ -36,21 +36,25 @@ const navlist = [
         <!-- TODO 中英文切換 -->
         <LanguageIcon class="w-6 h-6 cursor-pointer hover:text-accent-50" />
         <!-- mobile menu -->
-        <Menu>
+        <Menu as="div">
           <MenuButton>
             <Bars3Icon class="w-6 h-6 cursor-pointer active:text-white md:hidden" />
           </MenuButton>
-          <MenuItems class="absolute right-0 w-full py-3 border-solid rounded-md shadow-lg top-full bg-primary-700/40 border-primary-600">
+          <MenuItems
+            as="ul"
+            class="absolute top-full right-0 w-[50vw] py-3 origin-center border-solid rounded-md shadow-lg bg-primary-700/40 border border-primary-600"
+          >
             <MenuItem
               v-for="navItems in navlist"
               v-slot="{ active }"
               :key="navItems.key"
+              as="li"
               class="px-4 py-3 cursor-pointer text-primary-600 hover:text-primary-300 hover:bg-primary-700/40"
               :class='{ "text-secondary-500": active }'
             >
-              <div>
+              <a>
                 {{ navItems.name }}
-              </div>
+              </a>
             </MenuItem>
           </MenuItems>
         </Menu>
