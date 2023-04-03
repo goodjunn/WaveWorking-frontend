@@ -42,7 +42,7 @@ const navlist = [
           </MenuButton>
           <MenuItems
             as="ul"
-            class="absolute top-full right-0 w-[50vw] py-3 origin-center border-solid rounded-md shadow-lg bg-primary-700/40 border border-primary-600"
+            class="absolute top-full right-0 w-[50vw] py-3 origin-center border-solid rounded-md shadow-lg bg-primary-900 border border-primary-600"
           >
             <MenuItem
               v-for="navItems in navlist"
