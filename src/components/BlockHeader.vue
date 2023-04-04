@@ -6,9 +6,9 @@ import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue';
 const { t } = useI18n();
 
 const navlist = [
-	{ name: t('menuNav.serving') },
-	{ name: t('menuNav.joinWave') },
-	{ name: t('menuNav.registration') }
+	{ name: t('common.serving') },
+	{ name: t('common.joinWave') },
+	{ name: t('common.registration') }
 ];
 
 </script>

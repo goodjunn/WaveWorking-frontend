@@ -1,9 +1,7 @@
 {
 	"hello": "你好",
   "common": {
-    "slogan": "wave working!"
-  },
-  "menuNav": {
+    "slogan": "wave working!",
     "serving": "專屬服務",
     "joinWave": "加入Wave",
     "registration": "成為 DJ"
@@ -15,8 +13,8 @@
     "title": "您最貼心的\n辦公音樂顧問",
     "content": "旋律共享 x 打造良好工作氛圍",
     "worry": {
-      "title": "您最貼心的\n辦公音樂顧問",
-      "caption": "旋律共享 x 打造良好工作氛圍",
+      "title": "在廣撥音樂的辦公空間中",
+      "caption": "您也遇過以下情境嗎？",
       "0": "聽到喜歡的音樂卻無從得知歌曲的名稱",
       "1": "播放的音樂類型與喜好衝突好想聽自己喜歡的歌",
       "2": "忙到忽略下班時間搞得工作與生活沒界線"
@@ -25,8 +23,7 @@
       "title": "讓 Wave Wroking !\n幫助您享受最友善的辦公氛圍",
       "caption": "用音樂為您的辦公空間來點節奏，\n提升彼此工作效率外，\n更能讓同事間彼此透過音樂在空氣中交流～"
     },
-    "service": {
-      "title": "專屬服務",
+    "serving": {
       "0": {
         "heading": "人人輕鬆「點」",
         "caption": "隨時「點播」想聽的音樂，滿足您聽覺上的小小需求"
