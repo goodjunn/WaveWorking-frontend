@@ -3,7 +3,7 @@
 const { t } = useI18n();
 
 // TODO 更新對應的插圖
-const middlelist = [
+const middleList = [
 	{
 		name: t('home.worry.0'),
 		url: 'src/assets/top_illust_bg.png'
@@ -76,8 +76,8 @@ const middlelist = [
           </p>
         </section>
         <div class="grid flex-col grid-cols-1 gap-2 md:grid-cols-2 lg:flex lg:justify-around lg:flex-row">
-          <sectoin
-            v-for="middleItems in middlelist"
+          <section
+            v-for="middleItems in middleList"
             :key="middleItems.key"
             class="grid justify-center py-6 text-center gap-y-6 text-primary-200"
           >
@@ -89,7 +89,7 @@ const middlelist = [
             <p class="text-base whitespace-pre md:text-lg">
               {{ middleItems.name }}
             </p>
-          </sectoin>
+          </section>
         </div>
       </article>
     </div>
