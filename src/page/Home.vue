@@ -23,7 +23,7 @@ const middleList = [
 <template>
   <BlockHeader />
   <main class="pt-12 capitalize">
-    <div class="container px-6 mx-auto mb-16 transition-all lg:px-12">
+    <div class="container px-6 mx-auto transition-all mb:6 lg:mb-16 lg:px-12">
       <article class="relative flex flex-col mb-12 lg:flex-row home__top md:mb-20">
         <div class="relative p-4 grow lg:max-xl:basis-1/2 md:pt-12 lg:pt-24 lg:pb-0 lg:pr-0 lg:pl-10 xl:pl-20 ">
           <section class="text-center text-white whitespace-pre-wrap lg:text-left">
@@ -66,11 +66,11 @@ const middleList = [
           >
         </div>
       </article>
-      <article class="home__middle">
+      <article class="relative home__pain">
         <section class="relative py-6 mb-12 text-center after:content-[''] after:absolute after:w-2/5 after:h-px after:bg-negative-500 after:top-0 after:left-0 before:content-[''] before:absolute before:w-2/5 before:h-px before:bg-negative-500 before:bottom-0 before:right-0">
-          <h2 class="text-xl md:text-3xl text-negative-500">
+          <h3 class="text-xl md:text-3xl text-negative-500">
             {{ $t('home.worry.title') }}
-          </h2>
+          </h3>
           <p class="text-lg md:text-xl text-negative-100">
             {{ $t('home.worry.caption') }}
           </p>
@@ -91,10 +91,62 @@ const middleList = [
             </p>
           </section>
         </div>
+        <img
+          src="@/assets/middle_circle_bg.png"
+          alt="circle background"
+          class="absolute -z-[1] object-cover -left-[60%] top-2/3 lg:top-52 lg:-left-[35%] mix-blend-hard-light"
+        >
       </article>
+    </div>
+    <div class="mb-20 home__appeal">
+      <div class="container mx-auto relative pt-[74px]">
+        <article class="absolute -left-[4.6rem] sm:max-xl:left-8 xl:left-[110px] top-0">
+          <img
+            src="@/assets/sub_illust.png"
+            alt="插圖"
+            class="object-cover relative z-[1] max-w-[34.5rem] animate-shake-lazy origin-top-left"
+          >
+        </article>
+      </div>
+      <div
+        class="relative flex flex-col items-center justify-center home__middle-sub linearBg-main"
+      >
+        <div class="container pt-[13rem] lg:pt-0 relative flex flex-col justify-end px-6 md:flex-row">
+          <section class="flex-1 " />
+          <section class="px-6 pt-6 pb-12 whitespace-break-spaces md:whitespace-pre lg:py-12 basis-full lg:basis-1/2 lg:pl-14 lg:pr-4 z-[2]">
+            <h3 class="mb-6 text-2xl md:text-3xl text-primary-50">
+              {{ $t('home.expect.title') }}
+            </h3>
+            <p class="text-lg md:text-xl text-accent-100">
+              {{ $t('home.expect.caption') }}
+            </p>
+          </section>
+        </div>
+        <div
+          class="absolute inset-y-0 flex flex-row justify-between w-full px-4 lg:px-12"
+        >
+          <div
+            v-for="circleItem in 2"
+            :key="circleItem.key"
+            class="flex flex-col justify-between pt-[262px] pb-20 md:py-10"
+          >
+            <div
+              v-for="item in 3"
+              :key="item.key"
+              class="w-3 h-3 rounded-full bg-primary-900"
+            />
+          </div>
+        </div>
+        <div class="absolute top-0 w-full h-full overflow-hidden">
+          <span class="!font-['Rufina'] mix-blend-screen absolute -top-16 -left-16 text-transparent text-[150px] leading-[130px] bg-clip-text bg-gradient-to-r from-secondary-700/50 to-secondary-700/0 to-65% opacity-50 sm:whitespace-nowrap whitespace-normal">Music Remind Share Music Remind Share<br>
+            Remind Share Music Remind Share Music<br>
+            Share Music Remind Music Remind Share</span>
+        </div>
+      </div>
     </div>
   </main>
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
 </style>

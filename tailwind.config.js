@@ -71,6 +71,16 @@ module.exports = {
           400: '#FA786A',
           500: '#FF5754',
         },
+      },
+      animation: {
+        'shake-lazy': 'shakeLazy 6s ease-in-out infinite alternate',
+      },
+      keyframes: {
+        shakeLazy: {
+          '0%': { transform: 'rotate(0deg)' },
+          '50%': { transform: 'rotate(2deg)' },
+          '100%': { transform: 'rotate(-3deg)' }
+        }
       }
 		}
 	},
