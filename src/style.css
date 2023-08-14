@@ -45,7 +45,7 @@
   }
 
   .btn-main {
-    @apply text-primary-50 linearBg-main hover:from-[#9038EB] hover:to-accent-500;
+    @apply text-primary-50 linearBg-main hover:from-[#9038EB] hover:to-accent-500 active:drop-shadow-cta;
   }
 
   .btn-sub {

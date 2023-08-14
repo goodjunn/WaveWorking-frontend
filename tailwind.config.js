@@ -72,6 +72,11 @@ module.exports = {
           500: '#FF5754',
         },
       },
+      dropShadow: {
+        'sec500': '0 0 16px rgba(118, 85, 247, 0.8)',
+        'sec700': '0 0 16px rgba(106, 28, 251, 0.8)',
+        'cta': '0 2px 16px rgba(106, 28, 251)',
+      },
       animation: {
         'shake-lazy': 'shakeLazy 6s ease-in-out infinite alternate',
       },
