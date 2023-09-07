@@ -19,7 +19,7 @@ const navlist = [
 
 <template>
   <header class="sticky top-0 z-30 linearBg-main drop-shadow-lg">
-    <div class="flex items-center justify-between px-6 py-4 mx-auto text-lg capitalize transition-all lg:container md:py-6">
+    <div class="flex items-center justify-between px-6 py-4 mx-auto text-lg capitalize transition-all lg:container md:py-6 2xl:px-20">
       <div class="flex items-center space-x-4 flex-nowrap">
         <div class="text-3xl font-bold uppercase text-secondary-50">
           logo

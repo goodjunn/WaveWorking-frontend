@@ -5,7 +5,7 @@
 
 <template>
   <footer class="border-t border-accent-500">
-    <article class="container relative flex flex-col items-center px-6 py-8 mx-auto gap-y-8 sm:gap-x-6 sm:flex-row ">
+    <article class="container relative flex flex-col items-center px-6 py-8 mx-auto gap-y-8 sm:gap-x-6 sm:flex-row 2xl:px-20">
       <div class="px-6 text-xl text-center text-primary-100 sm:text-2xl basis-3/5 sm:text-left">
         {{ $t('footerContent') }}
       </div>

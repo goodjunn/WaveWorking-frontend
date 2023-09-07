@@ -64,7 +64,7 @@ const isChineseLanguage = () => {
   <BlockHeader />
   <div class="overflow-hidden">
     <main class="pt-12 capitalize ">
-      <div class="container px-6 mx-auto transition-all mb:6 lg:mb-16 lg:px-12">
+      <div class="container px-6 mx-auto transition-all mb:6 lg:mb-16 lg:px-12 2xl:px-20">
         <article class="relative flex flex-col mb-12 lg:flex-row home__top md:mb-20">
           <div class="relative p-4 grow lg:max-xl:basis-1/2 md:pt-12 lg:pt-24 lg:pb-0 lg:pr-0 lg:pl-10 xl:pl-20 ">
             <section class="text-center text-white whitespace-pre-wrap lg:text-left">
@@ -155,7 +155,7 @@ const isChineseLanguage = () => {
         <div
           class="relative flex flex-col items-center justify-center overflow-hidden home__middle-sub linearBg-main"
         >
-          <div class="container pt-[13rem] lg:pt-0 relative flex flex-col justify-end px-6 md:flex-row">
+          <div class="container pt-[13rem] lg:pt-0 relative flex flex-col justify-end px-6 md:flex-row 2xl:px-20">
             <section class="flex-1 " />
             <section class="px-6 pt-6 pb-12 whitespace-break-spaces md:whitespace-pre lg:py-12 basis-full lg:basis-1/2 lg:pl-14 lg:pr-4 z-[2]">
               <h3 class="mb-6 text-2xl md:text-3xl text-primary-50 drop-shadow-[0_0_6px_rgba(255,122,184)]">
@@ -187,12 +187,12 @@ const isChineseLanguage = () => {
               Share Music Remind Music Remind Share</span>
           </div>
         </div>
-        <div class="container py-4 pr-6 mx-auto text-right text-primary-500 lg:pr-2 2xl:pr-0">
+        <div class="container py-4 pr-6 mx-auto text-right text-primary-500 2xl:px-20">
           <span>{{ $t('copyright') }}</span>
         </div>
       </div>
       <article class="home__service">
-        <div class="container px-6 pb-20 mx-auto transition-all md:pb-8">
+        <div class="container px-6 pb-20 mx-auto transition-all md:pb-8 2xl:px-20">
           <div class="flex items-center mb-12 md:mb-16 gap-x-6 md:gap-x-8">
             <span class="ml-0 md:ml-6 inline-block w-1 h-[3.5rem] linearBg-main rounded-full bg-gradient-to-b" />
             <h2 class="text-2xl sm:text-3xl md:text-4xl text-primary-50 ">
