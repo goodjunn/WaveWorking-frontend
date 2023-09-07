@@ -86,6 +86,9 @@ module.exports = {
           '50%': { transform: 'rotate(2deg)' },
           '100%': { transform: 'rotate(-3deg)' }
         }
+      },
+      backgroundImage: {
+        'circle-pattern': "url('@/assets/circle.svg')",
       }
 		}
 	},
