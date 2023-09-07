@@ -9,7 +9,7 @@
       <div class="px-6 text-xl text-center text-primary-100 sm:text-2xl basis-3/5 sm:text-left">
         {{ $t('footerContent') }}
       </div>
-      <div class="flex items-center justify-center px-6 grow">
+      <div class="flex items-center justify-center px-6 mb-12 grow sm:mb-0">
         <button
           type="button"
           class="btn btn-main min-w-[14rem] uppercase"

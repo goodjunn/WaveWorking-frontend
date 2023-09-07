@@ -4,41 +4,42 @@
     "slogan": "wave working!",
     "serving": "serving",
     "joinWave": "join wave",
-    "registration": "DJ registration"
+    "registration": "DJ registration",
+    "language" : "translate"
   },
-  "footerContent": "WaveWorking! 邀您共同體驗不同以往的聽覺交流",
+  "footerContent": "WaveWorking! invites you to experience a different kind of auditory communication.",
   "copyright": "© 2022 WaveWorking",
   "home": {
     "ctaButton": "join channel",
     "title": "your thoughtful music consultant",
     "content": "let music wave in our working!",
     "worry": {
-      "title": "在廣撥音樂的辦公空間中",
-      "caption": "您也遇過以下情境嗎？",
-      "0": "聽到喜歡的音樂卻無從得知歌曲的名稱",
-      "1": "播放的音樂類型與喜好衝突好想聽自己喜歡的歌",
-      "2": "忙到忽略下班時間搞得工作與生活沒界線"
+      "title": "In a shared workspace filled with music.",
+      "caption": "Have you ever experienced any of the following situations?",
+      "0": "Hearing a song you like, but having no way of knowing its title.",
+      "1": "The music doesn't match your taste, and you want to hear your favorite songs.",
+      "2": "Being too busy, work and personal life become indistinguishable."
     },
     "expect": {
-      "title": "讓 Wave Working !\n幫助您享受最友善的辦公氛圍",
-      "caption": "用音樂為您的辦公空間來點節奏，\n提升彼此工作效率外，\n更能讓同事間彼此透過音樂在空氣中交流～"
+      "title": "Let Wave Working! create the coziest office environment for you.",
+      "caption": "We add a musical touch to your workspace, boosting productivity, and fostering camaraderie among colleagues through the magic of music in the air!"
     },
     "serving": {
       "0": {
-        "heading": "人人輕鬆「點」",
-        "caption": "隨時「點播」想聽的音樂，滿足您聽覺上的小小需求"
+        "heading": "Everyone can easily “\ntune in.\n”",
+        "caption": "Request your favorite music at any time to satisfy your auditory cravings."
       },
       "1": {
-        "heading": "線上共享頻道",
-        "caption": "自由查看已排定的播放清單，歌曲資訊輕鬆一覽無疑"
+        "heading": "Online shared channels.",
+        "caption": "Easily view scheduled playlists and song information."
       },
       "2": {
-        "heading": "插播申請服務",
-        "caption": "為想先收聽的歌曲申請插播，在線DJ將優先安排該曲目"
+        "heading": "Song request service.",
+        "caption": "Apply to play your desired song in advance, and our online DJ will prioritize it."
       },
       "3": {
-        "heading": "即時的音樂提醒",
-        "caption": "專屬設置特定時間和歌曲，提示大家下班、午休等事件"
+        "heading": "Real-time music reminders.",
+        "caption": "Set specific times and songs for personalized reminders, such as end-of-day or lunchtime events."
       }
     }
   }

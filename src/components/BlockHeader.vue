@@ -8,13 +8,17 @@ const { t } = useI18n();
 const navlist = [
 	{ name: t('common.serving') },
 	{ name: t('common.joinWave') },
-	{ name: t('common.registration') }
+	{ name: t('common.registration') },
+	{
+		icon: LanguageIcon,
+		label: t('common.language')
+	}
 ];
 
 </script>
 
 <template>
-  <header class="sticky top-0 z-30 linearBg-main">
+  <header class="sticky top-0 z-30 linearBg-main drop-shadow-lg">
     <div class="flex items-center justify-between px-6 py-4 mx-auto text-lg capitalize transition-all lg:container md:py-6">
       <div class="flex items-center space-x-4 flex-nowrap">
         <div class="text-3xl font-bold uppercase text-secondary-50">
@@ -23,22 +27,30 @@ const navlist = [
         <span class="hidden text-secondary-300 md:inline-block">{{ $t('common.slogan') }}</span>
       </div>
       <nav class="flex items-center space-x-4 md:space-x-7 text-accent-100">
-        <ul class="items-center hidden md:flex space-x-7">
-          <!-- TODO 跳至各自頁面 -->
+        <ul
+          class="items-center hidden md:flex space-x-7"
+        >
+          <!-- TODO 跳至各自區塊頁面 -->
           <li
             v-for="navItems in navlist"
             :key="navItems.key"
             class="cursor-pointer hover:underline hover:underline-offset-4 hover:text-accent-50 active:text-white active:decoration-0"
           >
             {{ navItems.name }}
+            <!-- TODO 中英文切換 -->
+            <component
+              :is="navItems.icon"
+              class="w-6 h-6"
+            />
           </li>
         </ul>
-        <!-- TODO 中英文切換 -->
-        <LanguageIcon class="w-6 h-6 cursor-pointer hover:text-accent-50" />
         <!-- mobile menu -->
-        <Menu as="div">
+        <Menu
+          as="div"
+          class="flex items-center md:hidden"
+        >
           <MenuButton>
-            <Bars3Icon class="w-6 h-6 cursor-pointer active:text-white md:hidden" />
+            <Bars3Icon class="w-6 h-6 cursor-pointer active:text-white" />
           </MenuButton>
           <MenuItems
             as="ul"
@@ -53,7 +65,7 @@ const navlist = [
               :class='{ "text-secondary-500": active }'
             >
               <a>
-                {{ navItems.name }}
+                {{ navItems.name }}{{ navItems.label }}
               </a>
             </MenuItem>
           </MenuItems>

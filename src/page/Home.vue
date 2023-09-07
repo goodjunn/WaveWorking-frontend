@@ -44,6 +44,20 @@ const serviceList = [
 	}
 ];
 
+const isChineseLanguage = () => {
+	// 檢查當前語言
+	this.$i18n.locale === 'zh-tw';
+
+	// 切換語言
+	if (this.$i18n.locale === 'zh-tw') {
+		this.$i18n.locale = 'en';
+		this.isChineseLanguage = false;
+	} else {
+		this.$i18n.locale = 'zh-tw';
+		this.isChineseLanguage = true;
+	}
+};
+
 </script>
 
 <template>
@@ -102,18 +116,21 @@ const serviceList = [
               {{ $t('home.worry.caption') }}
             </p>
           </section>
-          <div class="grid flex-col grid-cols-1 gap-2 md:grid-cols-2 lg:flex lg:justify-around lg:flex-row">
+          <div class="grid justify-around grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             <section
               v-for="middleItems in middleList"
               :key="middleItems.key"
-              class="grid justify-center py-6 text-center gap-y-6 text-primary-200"
+              class="flex flex-col items-center justify-center py-6 text-center gap-y-6 text-primary-200"
             >
               <img
                 :src="middleItems.url"
-                alt=""
-                class="sm:max-lg:w-full sm:max-lg:h-full w-60 h-60"
+                alt="situation illut"
+                class="w-60 h-60"
               >
-              <p class="text-base whitespace-pre md:text-lg">
+              <p
+                class="w-full text-base sm:w-4/5 xl:w-3/4 md:text-lg"
+                :class="{'whitespace-pre': isChineseLanguage}"
+              >
                 {{ middleItems.name }}
               </p>
             </section>
@@ -125,7 +142,7 @@ const serviceList = [
           >
         </article>
       </div>
-      <div class="mb-20 home__appeal">
+      <div class="mb-6 home__appeal">
         <div class="container mx-auto relative pt-[74px]">
           <article class="absolute -left-[4.6rem] sm:max-xl:left-8 xl:left-[55px] 2xl:left-[110px] top-0">
             <img
@@ -170,23 +187,23 @@ const serviceList = [
               Share Music Remind Music Remind Share</span>
           </div>
         </div>
-        <div class="container py-4 mx-auto text-right text-primary-500">
+        <div class="container py-4 pr-6 mx-auto text-right text-primary-500 lg:pr-2 2xl:pr-0">
           <span>{{ $t('copyright') }}</span>
         </div>
       </div>
       <article class="home__service">
-        <div class="container px-6 pb-8 mx-auto transition-all xl:px-12">
-          <div class="flex items-center mb-20 gap-x-8">
-            <span class="inline-block w-1 h-[3.5rem] linearBg-main rounded-full bg-gradient-to-b" />
-            <h2 class="text-2xl md:text-4xl text-primary-50 ">
+        <div class="container px-6 pb-20 mx-auto transition-all md:pb-8">
+          <div class="flex items-center mb-12 md:mb-16 gap-x-6 md:gap-x-8">
+            <span class="ml-0 md:ml-6 inline-block w-1 h-[3.5rem] linearBg-main rounded-full bg-gradient-to-b" />
+            <h2 class="text-2xl sm:text-3xl md:text-4xl text-primary-50 ">
               {{ $t('common.serving') }}
             </h2>
           </div>
-          <div class="grid justify-between grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div class="grid justify-between grid-cols-1 gap-12 md:gap-6 md:grid-cols-2 lg:grid-cols-4">
             <section
               v-for="serviceItems in serviceList"
               :key="serviceItems.key"
-              class="flex flex-col px-8 pb-24 items-cente md:items-start"
+              class="flex flex-col p-3 md:pt-4 md:px-8 lg:pb-24 items-cente md:items-start"
             >
               <component
                 :is="serviceItems.icon"

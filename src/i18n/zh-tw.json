@@ -4,7 +4,8 @@
     "slogan": "wave working!",
     "serving": "專屬服務",
     "joinWave": "加入Wave",
-    "registration": "成為 DJ"
+    "registration": "成為 DJ",
+    "language" : "中英文切換"
   },
   "footerContent": "WaveWorking! 邀您共同體驗不同以往的聽覺交流",
   "copyright": "© 2022 WaveWorking",
@@ -16,7 +17,7 @@
       "title": "“\n在廣撥音樂的辦公空間中\n”",
       "caption": "您也遇過以下情境嗎？",
       "0": "聽到喜歡的音樂\n卻無從得知歌曲的名稱",
-      "1": "播放的音樂類型與喜好衝突\n好想聽自己喜歡的歌",
+      "1": "播放的音樂不合你的口味\n好想聽自己喜歡的歌",
       "2": "忙到忽略下班時間\n搞得工作與生活沒界線"
     },
     "expect": {
